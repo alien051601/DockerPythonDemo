@@ -16,3 +16,7 @@ def show_picture():
 @app.route('/sea')
 def show_png():
     return render_template('index/index_sea.html')
+
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=8000)
