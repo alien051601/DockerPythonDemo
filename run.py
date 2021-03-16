@@ -13,3 +13,6 @@ def show_picture():
     return render_template('index/index.html')
 
 
+@app.route('/sea')
+def show_png():
+    return render_template('index/index_sea.html')
